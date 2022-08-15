@@ -1,7 +1,7 @@
 {
-  "name": "template-node-ts",
+  "name": "ts-blockchain",
   "version": "0.0.0-development",
-  "description": "Template project for node.js and Typescript with workflows and semantic releasing",
+  "description": "A simple blockchain made with typescript",
   "main": "dist/index.js",
   "scripts": {
     "postinstall": "[ -d post-clone-scripts ] && ./post-clone-scripts/install-semantic-release.sh && rm -rf ./post-clone-scripts || true",
@@ -16,7 +16,7 @@
     "start:dev": "tsnd --rs ./src/index.ts",
     "semantic-release": "semantic-release"
   },
-  "author": "Lucas Santos <hello@lsantos.dev>",
+  "author": "Alan Bertani <alanbertani0x1@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/khaosdoctor/template-node-ts/issues"
